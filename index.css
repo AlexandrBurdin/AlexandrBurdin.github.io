@@ -388,6 +388,7 @@ nav a:hover {
     margin-bottom: 2em;
     position: relative;
     transform-style: preserve-3d;
+    z-index: 5;
 
     border: var(--clr-main) solid 3px;
     transition: 0.3s;
