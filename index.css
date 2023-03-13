@@ -49,7 +49,7 @@ header {
     padding: 0.5em 8em;
     background-color: rgb(86, 0, 121);
     box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
-    z-index: 3;
+    z-index: 4;
 }
 
 #logo {
@@ -63,7 +63,7 @@ header {
 
 .burger {
     display: none;
-    z-index: 3;
+    z-index: 2;
 }
 
 ul {
@@ -413,7 +413,7 @@ nav a:hover {
     margin-bottom: 2em;
     position: relative;
     transform-style: preserve-3d;
-    z-index: 2;
+    z-index: 3;
 
     border: var(--clr-main) solid 3px;
     transition: 0.3s;
