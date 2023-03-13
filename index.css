@@ -419,6 +419,13 @@ nav a:hover {
     transition: 0.3s;
 }
 
+@media (max-width: 800px) {
+    #theater .text button,
+    #cinema .text button {
+        z-index: 4;
+    }
+}
+
 #theater .text button::before,
 #cinema .text button::before {
     position: absolute;
