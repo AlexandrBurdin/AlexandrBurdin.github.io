@@ -11,6 +11,23 @@
     --clr-text: white;
 }
 
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--clr-main);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(232, 21, 252), rgb(0, 183, 255));
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, rgb(246, 151, 255), rgb(0, 63, 88));
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -242,6 +259,8 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
 
+    position: relative;
+
     height: 100%;
 }
 
@@ -268,6 +287,8 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
     margin: 2em;
+
+    position: relative;
 }
 
 @media (max-width: 800px) {
@@ -344,6 +365,8 @@ nav a:hover {
     padding-inline: 4em;
     padding-top: 2em;
     margin-inline: 1em;
+
+    position: relative;
 }
 
 @media (max-width: 800px) {
@@ -364,6 +387,8 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
 #theater .card p:nth-child(2),
@@ -388,6 +413,7 @@ nav a:hover {
     margin-bottom: 2em;
     position: relative;
     transform-style: preserve-3d;
+    z-index: 2;
 
     border: var(--clr-main) solid 3px;
     transition: 0.3s;
