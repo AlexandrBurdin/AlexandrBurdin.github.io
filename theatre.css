@@ -82,8 +82,7 @@ nav a {
     color: var(--clr-text);
 }
 
-nav a:nth-child(1),
-nav a:nth-child(2) {
+nav a:nth-child(1) {
     border-right: 1px solid grey;
 }
 
