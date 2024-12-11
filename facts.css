@@ -206,6 +206,13 @@ nav a:hover {
     padding: 5em;
 }
 
+@media (max-width: 800px) {
+    #facts {
+        padding: 2em;
+        padding-top: 5em;
+    }
+}
+
 .intro h1 {
     font-size: 1.7rem;
 }
@@ -221,7 +228,7 @@ nav a:hover {
 
 @media (max-width: 800px) {
     .intro img {
-        width: 550px;
+        width: 340px;
     }
 }
 
@@ -245,7 +252,11 @@ nav a:hover {
 
 @media (max-width: 800px) {
     .fact img {
-        width: 500px;
+        width: 340px;
+    }
+
+    .fact p {
+        font-size: 1.4rem;
     }
 }
 

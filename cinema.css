@@ -237,7 +237,7 @@ nav a:hover {
 
 @media (max-width: 800px) {
     .cinema-photos img {
-        width: 600px;
+        width: 350px;
     }
 
     .cinema-photos img:nth-child(1) {
@@ -261,11 +261,12 @@ nav a:hover {
 @media (max-width: 800px) {
     .float-img {
         margin-left: 0em;
+        font-size: 1.3rem;
     }
 
     .float-img img {
         float: none;
-        width: 600px;
+        width: 350px;
         margin-left: 0;
         margin-bottom: 0;
     }
@@ -292,6 +293,12 @@ nav a:hover {
     margin-bottom: 0.5em;
 }
 
+@media (max-width: 800px) {
+    .text p {
+        font-size: 1.3rem;
+    }
+}
+
 .card-wrapper {
     display: flex;
     align-items: center;
@@ -313,7 +320,7 @@ nav a:hover {
     }
 
     .card img {
-        width: 400px;
+        width: 300px;
     }
 
     .card img:nth-child(1) {

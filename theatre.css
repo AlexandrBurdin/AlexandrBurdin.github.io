@@ -210,6 +210,13 @@ nav a:hover {
     padding: 5em;
 }
 
+@media (max-width: 800px) {
+    #history {
+        padding: 2em;
+        padding-top: 5em;
+    }
+}
+
 .title {
     margin-bottom: 1em;
     font-size: 1.8rem;
@@ -241,7 +248,7 @@ nav a:hover {
 
 @media (max-width: 800px) {
     .text {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         width: 100%;
         margin-bottom: 1em;
     }
@@ -274,6 +281,16 @@ nav a:hover {
     color: var(--clr-text-alt); 
     text-decoration: none;
     transition: 0.2s;
+}
+
+@media (max-width: 800px) {
+    .card p {
+        z-index: 4;
+    }
+
+    .card a {
+        z-index: 4;
+    }
 }
 
 .card a:hover {
