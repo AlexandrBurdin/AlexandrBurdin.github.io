@@ -252,7 +252,7 @@ nav a:hover {
 
 @media (max-width: 800px) {
     .fact img {
-        width: 340px;
+        width: 320px;
     }
 
     .fact p {
