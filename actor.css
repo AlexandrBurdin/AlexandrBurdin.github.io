@@ -515,6 +515,14 @@ footer {
     footer {
         padding: 1em 2em;
     }
+
+    footer .wrap {
+        z-index: 4;
+    }
+
+    footer .section {
+        z-index: 4;
+    }
 }
 
 footer .wrap {

@@ -531,6 +531,15 @@ footer {
 @media (max-width: 800px) {
     footer {
         padding: 1em 2em;
+        z-index: 4;
+    }
+
+    footer .wrap {
+        z-index: 4;
+    }
+
+    footer .section {
+        z-index: 4;
     }
 }
 
