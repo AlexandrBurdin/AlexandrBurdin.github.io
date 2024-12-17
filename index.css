@@ -95,16 +95,20 @@ nav a:hover {
         overflow: hidden;
     }
 
+    body.lock > header {
+        height: 100%;
+    }
+
     header {
         padding: 1em 2em;
         padding: 0;
         font-size: 0.8rem;
-        height: 100%;
         width: 100%;
         background-color: initial;
         backdrop-filter: none;
         align-items: flex-start;
         flex-direction: column;
+        z-index: 5;
     }
 
     .head {
@@ -128,8 +132,16 @@ nav a:hover {
         transition: 0.3s;
     }
 
+    .menu {
+        z-index: 1;
+        display: none;
+        overflow: hidden;
+    }
+
     .menu.active {
         top: 0;
+        display: initial;
+        z-index: 5;
     }
 
     nav a:nth-child(1),
